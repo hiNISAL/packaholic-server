@@ -7,6 +7,8 @@ A simple implementation of packaging service based on packaholic.
 ```shell
 git clone https://github.com/hiNISAL/packaholic-server
 
+cd packaholic-server
+
 bun install
 bun start
 ```
@@ -15,7 +17,7 @@ bun start
 
 There is an example in the /test/project directory of the project, which can be triggered by the following curl.
 
-```curl
+```bash
 curl -X POST \
   http://localhost:3001/pack \
   -H 'Content-Type: application/json' \
